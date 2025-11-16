@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Banana Tracker — Support</title>
+  <meta name="description" content="Support, FAQs and contact for the Banana Tracker app." />
+  <style>
+    :root{--accent:#FFB400;--bg:#ffffff;--muted:#6b7280;--card:#f7fafc}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; color:#0f172a; background:var(--bg);line-height:1.5}
+    header{background:linear-gradient(90deg,#fffaf0,#fff5e6);border-bottom:1px solid #eee;padding:20px}
+    .wrap{max-width:900px;margin:0 auto;padding:20px}
+    h1{margin:0;font-size:1.5rem}
+    nav{margin-top:12px}
+    nav a{margin-right:14px;color:var(--accent);text-decoration:none;font-weight:600}
+    main{padding:20px 0}
+    section{background:var(--card);padding:18px;border-radius:10px;margin-bottom:18px;border:1px solid #eee}
+    h2{margin-top:0}
+    .muted{color:var(--muted)}
+    .btn{display:inline-block;background:var(--accent);color:#000;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:700}
+    footer{padding:20px 0;text-align:center;color:var(--muted);font-size:0.9rem}
+    pre{background:#fff;padding:12px;border-radius:8px;overflow:auto}
+    @media (max-width:640px){.wrap{padding:12px}h1{font-size:1.25rem}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Banana Tracker — Support</h1>
+      <nav>
+        <a href="#contact">Contact</a>
+        <a href="#privacy">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="contact">
+      <h2>Contact & Support</h2>
+      <p class="muted">If you need help, open an issue in the project repository or email the support address below.</p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:support@banana-tracker.app">shownns@foxmail.com</a>
+      </p>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy & Security</h2>
+      <p class="muted">This app uses Firebase Authentication and Firestore to store minimal user data (email, username, banana counts). Profile photos are stored in Firebase Storage. </p>
+      <p class="muted">If you have questions or concerns regarding anything related to the app, feel free to send me an email and I will get back to you at my earliest convenience.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      Banana Tracker • v1.0.0 • <span class="muted">Built with care 🍌</span>
+    </div>
+  </footer>
+</body>
+</html>
